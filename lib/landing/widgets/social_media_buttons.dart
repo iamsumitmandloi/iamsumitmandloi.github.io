@@ -9,7 +9,8 @@ class SocialMediaButtons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final alignment = context.isDesktop ? WrapAlignment.start : WrapAlignment.center;
+    final alignment =
+        context.isDesktop ? WrapAlignment.start : WrapAlignment.center;
     final wrapAlignment = context.isMobile ? Alignment.center : null;
 
     return Container(

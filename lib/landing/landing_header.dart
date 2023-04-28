@@ -76,7 +76,7 @@ class LandingHeader extends StatelessWidget {
 
     // Motto text alignment: when Desktop = start, when Mobile and Tablet = center.
     final mottoTextAlignment =
-        context.isDesktop ? TextAlign.start : TextAlign.center;
+        context.isDesktop ? TextAlign.start : TextAlign.start;
 
     // Max width of centered view when Mobile = 602, Tablet = 800, when Desktop = 1200
     final maxWidth = ResponsiveValue<double>(
@@ -104,8 +104,8 @@ class LandingHeader extends StatelessWidget {
               // Personal logo
               ClipOval(
                 child: FadeInImage.assetNetwork(
-                  image:
-                      'https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg',
+                  image: 'https://avatars.githubusercontent.com/u/61627516?v=4',
+                  // 'https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg',
                   placeholder: 'assets/images/transparent.png',
                   height: logoSize,
                   width: logoSize,
@@ -113,7 +113,6 @@ class LandingHeader extends StatelessWidget {
               ),
               const SizedBox(width: 16.0),
 
-              // Text: "KAMRAN BEKIROV"
               Expanded(
                 child: DelayedWidget(
                   delayDuration: const Duration(milliseconds: 1000),
@@ -144,7 +143,7 @@ class LandingHeader extends StatelessWidget {
           ),
           const SizedBox(height: 30.0),
 
-          // Text: "FLUTTER BY DAY, FLUTTER BY NIGHT (INCLUDING WEEKENDS)"
+          // Text: about me
           DelayedWidget(
             delayDuration: const Duration(milliseconds: 1500),
             from: DelayFrom.top,
@@ -157,6 +156,7 @@ class LandingHeader extends StatelessWidget {
                 color: Colors.white,
                 letterSpacing: 1.8,
               ),
+              cursorColor: Colors.blue,
             ),
           ),
           const SizedBox(height: 40.0),
