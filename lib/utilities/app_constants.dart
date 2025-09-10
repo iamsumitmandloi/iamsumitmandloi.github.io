@@ -8,15 +8,14 @@ abstract class AppConstants {
       'MOBILE APPLICATIONS EITHER DEVELOPED COMPLETELY BY ME OR BY A TEAM WHERE I PARTICIPATED SIGNIFICANTLY';
   static const landingTitle = 'SUMIT MANDLOI';
   static const landingMotto =
-      'Hi, This is SUMIT, I am a skilled Flutter Developer with 3 year of experience in Flutter. I have expertise in Flutter, Dart, Firebase, Git and worked on state management tools like: Bloc, Getx and Provider.';
+      'Hi, This is SUMIT, I am a skilled Flutter Developer with 4+ years of experience in Flutter. I have expertise in Flutter, Dart, Firebase, Git and worked on state management tools like: Bloc, Mobx and Provider.';
   // 'FLUTTER BY DAY, FLUTTER BY NIGHT (INCLUDING WEEKENDS)';
 
   static const webSiteURL = ' top';
   static const gitHubProfileURL = 'https://github.com/iamsumitmandloi';
-  static const linkedInProfileURL =
-      'https://linkedin.com/in/sumit-mandloi-a9b70b171';
+  static const linkedInProfileURL = 'https://linkedin.com/in/iamsumitmandloi';
   static const twitterURL = 'https://twitter.com/the_sumitkumar';
-  static const instagramProfileURL = 'https://instagram.com/thesumit_02';
+  static const instagramProfileURL = 'https://instagram.com/iamsumitmandloi';
   static const facebookProfileURL = 'https://www.facebook.com/';
   static const eMail = 'mailto:sumitkumar77.sk@gmail.com';
   static const flutterWebSiteURL = 'https://flutter.dev';
