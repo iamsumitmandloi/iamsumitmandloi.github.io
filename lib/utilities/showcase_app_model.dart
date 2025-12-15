@@ -34,6 +34,22 @@ class ShowcaseAppModel {
 // List of apps that will be listed on landing page.
 const apps = [
   ShowcaseAppModel.withLocalAsset(
+    name: 'Tata Neu',
+    image: AssetConstant.tataneu,
+    playStoreURL:
+        'https://play.google.com/store/apps/details?id=com.tatadigital.tcp',
+    appStoreURL: 'https://apps.apple.com/in/app/tata-neu-shop-travel-finance/id1584669293',
+    topic: 'Super App - Shop, Travel & Finance',
+  ),
+  ShowcaseAppModel.withLocalAsset(
+    name: 'Agbiz',
+    image: AssetConstant.agbiz,
+    playStoreURL:
+        'https://play.google.com/store/apps/details?id=com.censa.agbiz',
+    appStoreURL: null,
+    topic: 'Agriculture Business App for Farmers & FPOs',
+  ),
+  ShowcaseAppModel.withLocalAsset(
     name: 'Investmates',
     image: AssetConstant.investmates,
     playStoreURL:
@@ -47,7 +63,7 @@ const apps = [
     playStoreURL:
         'https://play.google.com/store/apps/details?id=com.indiahealthlink.ihlhealth',
     appStoreURL: 'https://apps.apple.com/us/app/ihl-care/id1531266761',
-    topic: 'Ihl Care',
+    topic: 'Healthcare App',
   ),
   ShowcaseAppModel.withLocalAsset(
     name: 'Ihl Partner',
@@ -55,6 +71,6 @@ const apps = [
     playStoreURL:
         'https://play.google.com/store/apps/details?id=com.indiahealthlink.ihlpartner',
     appStoreURL: 'https://apps.apple.com/us/app/ihl-care/id1531266761',
-    topic: 'Admin App',
+    topic: 'Healthcare Admin App',
   ),
 ];

@@ -27,27 +27,6 @@ class ShowcaseAppItem extends StatelessWidget {
       child: Stack(
         children: [
           _buildChild(),
-          // Positioned(
-          //   top: 0.0,
-          //   // bottom: 192.0,
-          //   left: 0.0,
-          //   right: 0.0,
-          //   child: GestureDetector(
-          //     // When overlay tapped, open full screen interactive image viewer.
-          //     onTap: () {
-          //       showGeneralDialog(
-          //         context: context,
-          //         pageBuilder: (_, __, ___) {
-          //           return InteractiveImageViewer(
-          //             image: app.image,
-          //             isNetworkImage: app.isNetworkImage,
-          //           );
-          //         },
-          //       );
-          //     },
-          //     child: AnimatedImageOverlay(app.topic),
-          //   ),
-          // ),
         ],
       ),
     );
@@ -62,6 +41,8 @@ class ShowcaseAppItem extends StatelessWidget {
           SourceAwareImage(
             image: app.image,
             isNetworkImage: app.isNetworkImage,
+            height: 500,
+            fit: BoxFit.cover,
           ),
           _buildBottom(),
         ],
@@ -87,25 +68,23 @@ class ShowcaseAppItem extends StatelessWidget {
               ),
             ],
           ),
-          if (app.playStoreURL != null) ...[
-            ExternalLinkButton(
-              url: app.playStoreURL!,
-              iconData: FontAwesomeIcons.googlePlay,
-              label: 'Play Store',
-            ),
-            const SizedBox(height: 10.0),
-          ],
-          if (app.appStoreURL != null) ...[
-            ExternalLinkButton(
-              url: app.appStoreURL!,
-              iconData: FontAwesomeIcons.appStoreIos,
-              label: 'App Store',
-            ),
-            const SizedBox(height: 10.0),
-          ],
+          ExternalLinkButton(
+            url: app.playStoreURL,
+            iconData: FontAwesomeIcons.googlePlay,
+            label: 'Play Store',
+            enabled: app.playStoreURL != null,
+          ),
+          const SizedBox(height: 10.0),
+          ExternalLinkButton(
+            url: app.appStoreURL,
+            iconData: FontAwesomeIcons.appStoreIos,
+            label: 'App Store',
+            enabled: app.appStoreURL != null,
+          ),
+          const SizedBox(height: 10.0),
           if (app.githubURL != null)
             ExternalLinkButton(
-              url: app.githubURL!,
+              url: app.githubURL,
               iconData: FontAwesomeIcons.squareGithub,
               label: 'GitHub',
             ),

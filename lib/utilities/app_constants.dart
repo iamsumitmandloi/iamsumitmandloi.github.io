@@ -8,7 +8,7 @@ abstract class AppConstants {
       'MOBILE APPLICATIONS EITHER DEVELOPED COMPLETELY BY ME OR BY A TEAM WHERE I PARTICIPATED SIGNIFICANTLY';
   static const landingTitle = 'SUMIT MANDLOI';
   static const landingMotto =
-      'Hi, This is SUMIT, I am a skilled Flutter Developer with 4+ years of experience in Flutter. I have expertise in Flutter, Dart, Firebase, Git and worked on state management tools like: Bloc, Mobx and Provider.';
+      'Hi, This is SUMIT, I am a skilled Flutter Developer with nearly 5 years of experience in Flutter. I have expertise in Flutter, Dart, Firebase, Git and worked on state management tools like: Bloc, Mobx and Provider.';
   // 'FLUTTER BY DAY, FLUTTER BY NIGHT (INCLUDING WEEKENDS)';
 
   static const webSiteURL = ' top';
