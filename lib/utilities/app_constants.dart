@@ -14,7 +14,7 @@ abstract class AppConstants {
   static const webSiteURL = ' top';
   static const gitHubProfileURL = 'https://github.com/iamsumitmandloi';
   static const linkedInProfileURL = 'https://linkedin.com/in/iamsumitmandloi';
-  static const twitterURL = 'https://twitter.com/the_sumitkumar';
+  static const twitterURL = 'https://x.com/iamsumitmandloi';
   static const instagramProfileURL = 'https://instagram.com/iamsumitmandloi';
   static const facebookProfileURL = 'https://www.facebook.com/';
   static const eMail = 'mailto:sumitkumar77.sk@gmail.com';
