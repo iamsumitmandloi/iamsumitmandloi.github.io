@@ -25,7 +25,8 @@ String _buildContent() {
   final out = StringBuffer()
     ..writeln(_start)
     ..writeln('  <main id="seo-content">')
-    ..writeln('    <h1>Sumit Mandloi, Flutter Developer</h1>')
+    ..writeln(
+        '    <h1>Sumit Mandloi (@${AppConstants.handle}), Flutter Developer</h1>')
     ..writeln('    <p>${_escape(AppConstants.landingMotto)}</p>')
     ..writeln('    <ul>');
   const profiles = {
@@ -33,6 +34,8 @@ String _buildContent() {
     'LinkedIn': AppConstants.linkedInProfileURL,
     'X': AppConstants.twitterURL,
     'Instagram': AppConstants.instagramProfileURL,
+    'Medium': AppConstants.mediumProfileURL,
+    'YouTube': AppConstants.youtubeURL,
   };
   profiles.forEach((label, url) {
     out.writeln('      <li>${_link(url, label)}</li>');

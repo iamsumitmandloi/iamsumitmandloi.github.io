@@ -12,11 +12,13 @@ class SocialMediaButtons extends StatelessWidget {
     final alignment =
         context.isDesktop ? WrapAlignment.start : WrapAlignment.center;
     final wrapAlignment = context.isMobile ? Alignment.center : null;
+    // Phones get tighter spacing so all the icons fit on one row.
+    final spacing = context.isDesktop || context.isTablet ? 16.0 : 8.0;
 
     return Container(
       alignment: wrapAlignment,
       child: Wrap(
-        spacing: 16.0,
+        spacing: spacing,
         runSpacing: 16.0,
         alignment: alignment,
         children: const [
@@ -44,6 +46,16 @@ class SocialMediaButtons extends StatelessWidget {
             index: 4,
             url: AppConstants.instagramProfileURL,
             icon: BrandIcon(BrandIcons.instagram),
+          ),
+          SocialMediaButton(
+            index: 5,
+            url: AppConstants.mediumProfileURL,
+            icon: BrandIcon(BrandIcons.medium),
+          ),
+          SocialMediaButton(
+            index: 6,
+            url: AppConstants.youtubeURL,
+            icon: BrandIcon(BrandIcons.youtube),
           ),
         ],
       ),

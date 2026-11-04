@@ -117,14 +117,29 @@ class LandingHeader extends StatelessWidget {
                 child: DelayedWidget(
                   delayDuration: const Duration(milliseconds: 1000),
                   from: DelayFrom.right,
-                  child: SelectableText(
-                    AppConstants.landingTitle,
-                    style: TextStyle(
-                      fontSize: titleSize,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                      letterSpacing: 4.0,
-                    ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      SelectableText(
+                        AppConstants.landingTitle,
+                        style: TextStyle(
+                          fontSize: titleSize,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          letterSpacing: 4.0,
+                        ),
+                      ),
+                      const SizedBox(height: 4.0),
+                      SelectableText(
+                        '@${AppConstants.handle}',
+                        style: TextStyle(
+                          fontSize: mottoSize,
+                          color: Colors.white70,
+                          letterSpacing: 1.8,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),

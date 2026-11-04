@@ -12,6 +12,8 @@ abstract final class BrandIcons {
   static const instagram = IconData(0xf16d, fontFamily: _family);
   static const googlePlay = IconData(0xf3ab, fontFamily: _family);
   static const appStoreIos = IconData(0xf370, fontFamily: _family);
+  static const medium = IconData(0xf23a, fontFamily: _family);
+  static const youtube = IconData(0xf167, fontFamily: _family);
 }
 
 // Draws a brand icon the way font_awesome_flutter's FaIcon does: as text at
