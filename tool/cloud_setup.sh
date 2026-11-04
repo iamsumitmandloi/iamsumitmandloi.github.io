@@ -19,7 +19,11 @@ fi
 git config --global --add safe.directory "$FLUTTER_HOME"
 
 export PATH="$FLUTTER_HOME/bin:$PATH"
-if ! grep -qs "$FLUTTER_HOME/bin" "$HOME/.bashrc"; then
+# Put flutter and dart on the PATH for every shell, not just this one.
+if [ -w /usr/local/bin ]; then
+  ln -sf "$FLUTTER_HOME/bin/flutter" /usr/local/bin/flutter
+  ln -sf "$FLUTTER_HOME/bin/dart" /usr/local/bin/dart
+elif ! grep -qs "$FLUTTER_HOME/bin" "$HOME/.bashrc"; then
   echo "export PATH=\"$FLUTTER_HOME/bin:\$PATH\"" >> "$HOME/.bashrc"
 fi
 
