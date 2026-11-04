@@ -42677,7 +42677,7 @@ A.a9a.prototype={}
 A.aer.prototype={}
 A.Hg.prototype={
 N(a){var s=null
-return new A.zc(B.IF,new A.YG(),"Sumit Mandloi",A.uz(s,s,"Ubuntu",s,A.ayF(A.aM())),!1,s)}}
+return new A.zc(B.IF,new A.YG(),"Sumit Mandloi \u2013 Flutter Developer",A.uz(s,s,"Ubuntu",s,A.ayF(A.aM())),!1,s)}}
 A.YG.prototype={
 $2(a,b){var s=null
 return new A.AE(new A.eH(new A.YF(b),s),B.JN,s,s,!1,!1,s)},
