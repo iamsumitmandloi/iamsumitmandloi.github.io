@@ -14,7 +14,6 @@ dependencies:
   flutter_svg: ^2.3.2
   flutter_web_plugins:
     sdk: flutter
-  font_awesome_flutter: ^11.0.0
   responsive_framework: ^1.5.1
 
 dev_dependencies:
@@ -34,4 +33,7 @@ flutter:
         - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
         - asset: assets/fonts/Ubuntu/Ubuntu-Medium.ttf
         - asset: assets/fonts/Ubuntu/Ubuntu-Regular.ttf
-        - asset: assets/fonts/Ubuntu/Ubuntu-Light.ttf
+    - family: FontAwesomeBrands
+      fonts:
+        - asset: assets/fonts/FontAwesome/Font-Awesome-7-Brands-Regular-400.otf
+          weight: 400

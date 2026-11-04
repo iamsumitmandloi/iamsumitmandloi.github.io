@@ -2,7 +2,7 @@ import 'package:app/utilities/app_constants.dart';
 import 'package:app/landing/widgets/social_media_button.dart';
 import 'package:app/utilities/extensions.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:app/utilities/brand_icons.dart';
 
 class SocialMediaButtons extends StatelessWidget {
   const SocialMediaButtons({super.key});
@@ -23,7 +23,7 @@ class SocialMediaButtons extends StatelessWidget {
           SocialMediaButton(
             index: 0,
             url: AppConstants.gitHubProfileURL,
-            icon: FaIcon(FontAwesomeIcons.github),
+            icon: BrandIcon(BrandIcons.github),
           ),
           SocialMediaButton(
             index: 1,
@@ -33,17 +33,17 @@ class SocialMediaButtons extends StatelessWidget {
           SocialMediaButton(
             index: 2,
             url: AppConstants.linkedInProfileURL,
-            icon: FaIcon(FontAwesomeIcons.linkedin),
+            icon: BrandIcon(BrandIcons.linkedin),
           ),
           SocialMediaButton(
             index: 3,
             url: AppConstants.twitterURL,
-            icon: FaIcon(FontAwesomeIcons.xTwitter),
+            icon: BrandIcon(BrandIcons.xTwitter),
           ),
           SocialMediaButton(
             index: 4,
             url: AppConstants.instagramProfileURL,
-            icon: FaIcon(FontAwesomeIcons.instagram),
+            icon: BrandIcon(BrandIcons.instagram),
           ),
         ],
       ),

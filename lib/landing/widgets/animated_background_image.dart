@@ -1,3 +1,4 @@
+import 'package:app/utilities/asset_const.dart';
 import 'package:app/utilities/extensions.dart';
 import 'package:flutter/material.dart';
 
@@ -39,10 +40,9 @@ class _AnimatedBackgroundImageState extends State<AnimatedBackgroundImage> {
       width: double.maxFinite,
       child: Opacity(
         opacity: 0.3,
-        child: FadeInImage.assetNetwork(
-          placeholder: 'assets/images/transparent.png',
-          image:
-              'https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg',
+        child: FadeInImage(
+          placeholder: const AssetImage(AssetConstant.transparent),
+          image: const AssetImage(AssetConstant.heroBackground),
           fit: BoxFit.cover,
           alignment: Alignment(0.0, _y),
         ),

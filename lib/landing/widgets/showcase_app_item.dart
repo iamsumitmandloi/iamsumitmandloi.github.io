@@ -1,7 +1,7 @@
 import 'package:app/landing/widgets/source_aware_image.dart';
 import 'package:app/utilities/showcase_app_model.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:app/utilities/brand_icons.dart';
 import 'package:app/landing/landing_screen.dart';
 import 'package:app/landing/widgets/external_link_button.dart';
 
@@ -68,14 +68,14 @@ class ShowcaseAppItem extends StatelessWidget {
           ),
           ExternalLinkButton(
             url: app.playStoreURL,
-            iconData: FontAwesomeIcons.googlePlay,
+            iconData: BrandIcons.googlePlay,
             label: 'Play Store',
             enabled: app.playStoreURL != null,
           ),
           const SizedBox(height: 10.0),
           ExternalLinkButton(
             url: app.appStoreURL,
-            iconData: FontAwesomeIcons.appStoreIos,
+            iconData: BrandIcons.appStoreIos,
             label: 'App Store',
             enabled: app.appStoreURL != null,
           ),
@@ -83,7 +83,7 @@ class ShowcaseAppItem extends StatelessWidget {
           if (app.githubURL != null)
             ExternalLinkButton(
               url: app.githubURL,
-              iconData: FontAwesomeIcons.squareGithub,
+              iconData: BrandIcons.squareGithub,
               label: 'GitHub',
             ),
         ],

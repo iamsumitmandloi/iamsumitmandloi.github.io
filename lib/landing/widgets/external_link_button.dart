@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:app/utilities/brand_icons.dart';
 import 'package:app/utilities/url_launcher.dart';
 
 class ExternalLinkButton extends StatelessWidget {
   final String? url;
   final String label;
-  final FaIconData iconData;
+  final IconData iconData;
   final bool enabled;
 
   const ExternalLinkButton({
@@ -31,7 +31,7 @@ class ExternalLinkButton extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 10.0),
         child: Row(
           children: [
-            FaIcon(
+            BrandIcon(
               iconData,
               color: color,
             ),
