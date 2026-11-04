@@ -1,6 +1,6 @@
 // Almost all texts used through out the app.
 abstract class AppConstants {
-  static const appTitle = 'Sumit Mandloi';
+  static const appTitle = 'Sumit Mandloi – Flutter Developer';
   static const disclaimer =
       'Some of these were built for companies I worked at or for clients, so the apps belong to their owners.';
   static const showcaseTitle = 'SHOWCASE ';
