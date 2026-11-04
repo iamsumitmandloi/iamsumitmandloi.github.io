@@ -50,6 +50,22 @@ const apps = [
     topic: 'Create and track Electronic Gold Receipt requests',
   ),
   ShowcaseAppModel.withLocalAsset(
+    name: 'NSE MF Invest Biz',
+    image: AssetConstant.mfInvestBiz,
+    playStoreURL:
+        'https://play.google.com/store/apps/details?id=com.nseindia.mf_invest',
+    appStoreURL: 'https://apps.apple.com/in/app/nse-mf-invest-biz/id6768894925',
+    topic: 'Mutual fund transactions for distributors',
+  ),
+  ShowcaseAppModel.withLocalAsset(
+    name: 'NEAPS',
+    image: AssetConstant.neaps,
+    playStoreURL:
+        'https://play.google.com/store/apps/details?id=com.nseindia.corporate',
+    appStoreURL: 'https://apps.apple.com/in/app/neaps-app/id6752997651',
+    topic: 'Announcements, circulars and filings for listed companies',
+  ),
+  ShowcaseAppModel.withLocalAsset(
     name: 'NSE GoBID',
     image: AssetConstant.gobidLogo,
     playStoreURL: null,

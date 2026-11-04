@@ -1,6 +1,8 @@
 class AssetConstant {
   static const nseIndia = 'assets/images/nse_india.webp';
   static const egr = 'assets/images/egr.webp';
+  static const mfInvestBiz = 'assets/images/mf_invest_biz.webp';
+  static const neaps = 'assets/images/neaps.webp';
   static const gobidLogo = 'assets/images/gobid_logo.svg';
   static const ihlc = 'assets/images/ihlc.jpg';
   static const ihlp = 'assets/images/ihlp.png';
