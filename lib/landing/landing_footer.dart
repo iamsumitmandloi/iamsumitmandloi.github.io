@@ -22,7 +22,7 @@ class LandingFooter extends StatelessWidget {
             },
             child: const Padding(
               padding: EdgeInsets.symmetric(horizontal: 24.0, vertical: 16.0),
-              child: Icon(
+              child: FaIcon(
                 FontAwesomeIcons.github,
                 color: Colors.white,
                 size: 44.0,

@@ -5,13 +5,13 @@ import 'package:app/utilities/url_launcher.dart';
 
 class SocialMediaButton extends StatelessWidget {
   final String url;
-  final IconData iconData;
+  final Widget icon;
   final double size;
   final int index;
 
   const SocialMediaButton({
     required this.url,
-    required this.iconData,
+    required this.icon,
     required this.index,
     this.size = 30.0,
     super.key,
@@ -25,11 +25,9 @@ class SocialMediaButton extends StatelessWidget {
       child: AnimatedOpacityWhenHovered(
         child: IconButton(
           onPressed: () => launchUrl(url),
-          icon: Icon(
-            iconData,
-            color: Colors.white,
-            size: size,
-          ),
+          color: Colors.white,
+          iconSize: size,
+          icon: icon,
         ),
       ),
     );
