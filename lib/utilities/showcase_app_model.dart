@@ -58,7 +58,7 @@ const apps = [
     topic: 'Social Networking App for Investments',
   ),
   ShowcaseAppModel.withLocalAsset(
-    name: 'Ihl Care',
+    name: 'IHL Care',
     image: AssetConstant.ihlc,
     playStoreURL:
         'https://play.google.com/store/apps/details?id=com.indiahealthlink.ihlhealth',
@@ -66,11 +66,11 @@ const apps = [
     topic: 'Healthcare App',
   ),
   ShowcaseAppModel.withLocalAsset(
-    name: 'Ihl Partner',
+    name: 'IHL Partner',
     image: AssetConstant.ihlp,
     playStoreURL:
         'https://play.google.com/store/apps/details?id=com.indiahealthlink.ihlpartner',
-    appStoreURL: 'https://apps.apple.com/us/app/ihl-care/id1531266761',
+    appStoreURL: null,
     topic: 'Healthcare Admin App',
   ),
 ];

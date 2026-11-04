@@ -2,13 +2,13 @@
 abstract class AppConstants {
   static const appTitle = 'Sumit Mandloi';
   static const disclaimer =
-      'I do not claim ownership of the projects below as some of them were developed for companies I worked for and some for clients/clients of my clients while the backend side is provided.';
+      'Some of these were built for companies I worked at or for clients, so the apps belong to their owners.';
   static const showcaseTitle = 'SHOWCASE ';
   static const showcaseDescription =
-      'MOBILE APPLICATIONS EITHER DEVELOPED COMPLETELY BY ME OR BY A TEAM WHERE I PARTICIPATED SIGNIFICANTLY';
+      'Apps I have built, solo or as a core member of the team.';
   static const landingTitle = 'SUMIT MANDLOI';
   static const landingMotto =
-      'Hi, This is SUMIT, I am a skilled Flutter Developer with nearly 5 years of experience in Flutter. I have expertise in Flutter, Dart, Firebase, Git and worked on state management tools like: Bloc, Mobx and Provider.';
+      "Hi, I'm Sumit. Flutter developer with nearly 5 years of shipping production apps, from the Tata Neu super app to healthcare, agritech and investing apps. I work with Flutter, Dart and Firebase, using Bloc, MobX and Provider for state management.";
   // 'FLUTTER BY DAY, FLUTTER BY NIGHT (INCLUDING WEEKENDS)';
 
   static const webSiteURL = ' top';
@@ -16,7 +16,6 @@ abstract class AppConstants {
   static const linkedInProfileURL = 'https://linkedin.com/in/iamsumitmandloi';
   static const twitterURL = 'https://x.com/iamsumitmandloi';
   static const instagramProfileURL = 'https://instagram.com/iamsumitmandloi';
-  static const facebookProfileURL = 'https://www.facebook.com/';
   static const eMail = 'mailto:sumitkumar77.sk@gmail.com';
   static const flutterWebSiteURL = 'https://flutter.dev';
   static const openSourceRepoURL = 'https://github.com/iamsumitmandloi';
