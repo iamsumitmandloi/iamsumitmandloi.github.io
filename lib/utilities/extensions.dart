@@ -3,8 +3,8 @@ import 'package:responsive_framework/responsive_framework.dart';
 
 // Some utility extensions on responsive_framework package.
 extension BuildContextX on BuildContext {
-  ResponsiveWrapperData get responsiveness {
-    return ResponsiveWrapper.of(this);
+  ResponsiveBreakpointsData get responsiveness {
+    return ResponsiveBreakpoints.of(this);
   }
 
   bool get isMobile => responsiveness.isPhone;

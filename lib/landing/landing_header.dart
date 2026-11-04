@@ -48,7 +48,7 @@ class LandingHeader extends StatelessWidget {
     final titleSize = ResponsiveValue<double>(
       context,
       defaultValue: 24.0,
-      valueWhen: [
+      conditionalValues: [
         const Condition.equals(name: TABLET, value: 24.0),
         const Condition.largerThan(name: TABLET, value: 40.0),
       ],
@@ -58,7 +58,7 @@ class LandingHeader extends StatelessWidget {
     final logoSize = ResponsiveValue<double>(
       context,
       defaultValue: 40.0,
-      valueWhen: [
+      conditionalValues: [
         const Condition.equals(name: TABLET, value: 56.0),
         const Condition.largerThan(name: TABLET, value: 64.0),
       ],
@@ -68,7 +68,7 @@ class LandingHeader extends StatelessWidget {
     final mottoSize = ResponsiveValue<double>(
       context,
       defaultValue: 14.0,
-      valueWhen: [
+      conditionalValues: [
         const Condition.equals(name: TABLET, value: 14.0),
         const Condition.largerThan(name: TABLET, value: 16.0),
       ],
@@ -82,11 +82,11 @@ class LandingHeader extends StatelessWidget {
     final maxWidth = ResponsiveValue<double>(
       context,
       defaultValue: 602.0,
-      valueWhen: [
+      conditionalValues: [
         const Condition.equals(name: TABLET, value: 800.0),
         const Condition.largerThan(name: TABLET, value: 1200.0),
       ],
-    ).value!;
+    ).value;
 
     return Container(
       alignment: Alignment.center,
