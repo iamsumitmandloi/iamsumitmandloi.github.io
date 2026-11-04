@@ -39,7 +39,7 @@ class _ScrollUpIndicatorState extends State<ScrollUpIndicator> {
               width: double.maxFinite,
               height: 56.0,
               alignment: Alignment.centerLeft,
-              color: cardColor.withOpacity(.9),
+              color: cardColor.withValues(alpha: .9),
               child: GestureDetector(
                 onTap: () {
                   widget.scrollController.animateTo(

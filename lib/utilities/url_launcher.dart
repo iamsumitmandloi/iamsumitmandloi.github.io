@@ -1,9 +1,8 @@
-// OK, just trying something new :)
-import 'dart:js' as js;
+import 'dart:js_interop';
+
+@JS('open')
+external JSAny? _windowOpen(String url, String target);
 
 void launchUrl(String url, {bool newTab = true}) {
-  js.context.callMethod(
-    'open',
-    [url, newTab ? '_blank' : '_self'],
-  );
+  _windowOpen(url, newTab ? '_blank' : '_self');
 }

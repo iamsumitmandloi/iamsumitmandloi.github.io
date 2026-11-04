@@ -35,7 +35,7 @@ class _InteractiveImageViewerState extends State<InteractiveImageViewer> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: primaryColor.withOpacity(.25),
+      backgroundColor: primaryColor.withValues(alpha: .25),
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: primaryColor,
@@ -77,8 +77,8 @@ class _InteractiveImageViewerState extends State<InteractiveImageViewer> {
     } else {
       final position = _doubleTapDetails.localPosition;
       _transformationController.value = Matrix4.identity()
-        ..translate(-position.dx, -position.dy)
-        ..scale(2.0);
+        ..translateByDouble(-position.dx, -position.dy, 0.0, 1.0)
+        ..scaleByDouble(2.0, 2.0, 2.0, 1.0);
     }
   }
 }

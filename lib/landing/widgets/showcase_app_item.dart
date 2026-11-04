@@ -1,10 +1,8 @@
-import 'package:app/landing/widgets/interactive_image_viewer.dart';
 import 'package:app/landing/widgets/source_aware_image.dart';
 import 'package:app/utilities/showcase_app_model.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:app/landing/landing_screen.dart';
-import 'package:app/landing/widgets/animated_image_overlay.dart';
 import 'package:app/landing/widgets/external_link_button.dart';
 
 class ShowcaseAppItem extends StatelessWidget {
