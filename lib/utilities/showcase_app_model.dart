@@ -34,6 +34,29 @@ class ShowcaseAppModel {
 // List of apps that will be listed on landing page.
 const apps = [
   ShowcaseAppModel.withLocalAsset(
+    name: 'NSE India',
+    image: AssetConstant.nseIndia,
+    playStoreURL:
+        'https://play.google.com/store/apps/details?id=com.nse.nseindia',
+    appStoreURL: 'https://apps.apple.com/in/app/nseindia/id6736678487',
+    topic: 'Markets, stocks and indices from the National Stock Exchange',
+  ),
+  ShowcaseAppModel.withLocalAsset(
+    name: 'NSE EGR',
+    image: AssetConstant.egr,
+    playStoreURL:
+        'https://play.google.com/store/apps/details?id=com.nseindia.egr',
+    appStoreURL: null,
+    topic: 'Create and track Electronic Gold Receipt requests',
+  ),
+  ShowcaseAppModel.withLocalAsset(
+    name: 'NSE GoBID',
+    image: AssetConstant.gobidLogo,
+    playStoreURL: null,
+    appStoreURL: null,
+    topic: 'IPO bidding app',
+  ),
+  ShowcaseAppModel.withLocalAsset(
     name: 'Tata Neu',
     image: AssetConstant.tataneu,
     playStoreURL:
