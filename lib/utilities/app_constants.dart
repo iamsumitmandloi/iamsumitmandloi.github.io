@@ -22,6 +22,9 @@ abstract class AppConstants {
   static const mediumProfileURL = 'https://medium.com/@iamsumitmandloi';
   static const youtubeURL = 'https://www.youtube.com/@iamsumitmandloi';
   static const eMail = 'mailto:sumitkumar77.sk@gmail.com';
+  static const resumeURL =
+      'https://drive.google.com/file/d/1_V77bKztu5MQh1xRd6SI6CHzsjTqtlhs/view?usp=sharing';
+  static const contactPage = 'contact.html';
   static const flutterWebSiteURL = 'https://flutter.dev';
   static const openSourceRepoURL = 'https://github.com/iamsumitmandloi';
 }

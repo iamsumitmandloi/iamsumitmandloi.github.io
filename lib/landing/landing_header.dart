@@ -5,6 +5,7 @@ import 'package:app/landing/widgets/animated_background_image.dart';
 import 'package:app/landing/widgets/social_media_buttons.dart';
 import 'package:app/utilities/diagonal_path_clipper.dart';
 import 'package:app/utilities/extensions.dart';
+import 'package:app/utilities/url_launcher.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
@@ -174,7 +175,35 @@ class LandingHeader extends StatelessWidget {
               cursorColor: Colors.blue,
             ),
           ),
-          const SizedBox(height: 40.0),
+          const SizedBox(height: 24.0),
+          Wrap(
+            spacing: 12.0,
+            runSpacing: 12.0,
+            children: [
+              FilledButton.icon(
+                style: FilledButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  foregroundColor: const Color(0xFF2F3140),
+                  minimumSize: const Size(0, 44),
+                ),
+                onPressed: () => launchUrl(AppConstants.resumeURL),
+                icon: const Icon(Icons.description_outlined),
+                label: const Text('View résumé'),
+              ),
+              OutlinedButton.icon(
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: Colors.white,
+                  side: const BorderSide(color: Colors.white70),
+                  minimumSize: const Size(0, 44),
+                ),
+                onPressed: () =>
+                    launchUrl(AppConstants.contactPage, newTab: false),
+                icon: const Icon(Icons.mail_outline),
+                label: const Text('Contact me'),
+              ),
+            ],
+          ),
+          const SizedBox(height: 24.0),
 
           // Obvious from its name :)
           const SocialMediaButtons()
