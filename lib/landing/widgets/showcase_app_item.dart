@@ -40,7 +40,7 @@ class ShowcaseAppItem extends StatelessWidget {
             image: app.image,
             isNetworkImage: app.isNetworkImage,
             height: 500,
-            fit: BoxFit.cover,
+            fit: app.imageFit,
           ),
           _buildBottom(),
         ],

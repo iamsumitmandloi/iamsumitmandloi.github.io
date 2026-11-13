@@ -1,5 +1,6 @@
 // A model that represents portfolio apps on landing page.
 import 'package:app/utilities/asset_const.dart';
+import 'package:flutter/painting.dart';
 
 class ShowcaseAppModel {
   final String name;
@@ -7,6 +8,7 @@ class ShowcaseAppModel {
   final String? playStoreURL;
   final String? githubURL;
   final String image;
+  final BoxFit imageFit;
   final String topic;
 
   const ShowcaseAppModel.withNetworkAsset({
@@ -15,6 +17,7 @@ class ShowcaseAppModel {
     this.playStoreURL,
     this.githubURL,
     required this.image,
+    this.imageFit = BoxFit.cover,
     required this.topic,
   }) : _isNetworkImage = true;
 
@@ -24,6 +27,7 @@ class ShowcaseAppModel {
     this.playStoreURL,
     this.githubURL,
     required this.image,
+    this.imageFit = BoxFit.cover,
     required this.topic,
   }) : _isNetworkImage = false;
 
@@ -36,6 +40,7 @@ const apps = [
   ShowcaseAppModel.withLocalAsset(
     name: 'NSE India',
     image: AssetConstant.nseIndia,
+    imageFit: BoxFit.contain,
     playStoreURL:
         'https://play.google.com/store/apps/details?id=com.nse.nseindia',
     appStoreURL: 'https://apps.apple.com/in/app/nseindia/id6736678487',
