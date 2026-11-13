@@ -11,7 +11,8 @@ abstract class AppConstants {
   // YouTube).
   static const handle = 'iamsumitmandloi';
   static const landingMotto =
-      "Hi, I'm Sumit. Flutter developer with nearly 5 years of shipping production apps, from the Tata Neu super app to healthcare, agritech and investing apps. I work with Flutter, Dart and Firebase, using Bloc, MobX and Provider for state management.";
+      "Hi, I'm Sumit. Flutter developer with 6 years shipping production apps across fintech, retail, health and agritech.\n"
+      "I’ve shipped production apps including NSE India and Tata Neu, with experience in real-time market data and mobile security.";
   // 'FLUTTER BY DAY, FLUTTER BY NIGHT (INCLUDING WEEKENDS)';
 
   static const webSiteURL = ' top';

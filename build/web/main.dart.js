@@ -42465,7 +42465,7 @@ o===$&&A.a()
 n=A.asb(p,p,new A.lK("assets/images/transparent.png",p,p))
 q=t.E
 m=A.pK(A.c([new A.HW(new A.rV(n,A.asb(p,p,new A.ts("https://avatars.githubusercontent.com/u/61627516?v=4",1,p,B.Yk)),s,s,p,B.N,p),p),B.yR,new A.Jc(1,B.nq,A.a_I(A.lQ(A.c([A.asf("SUMIT MANDLOI",p,A.ho(p,p,B.k,p,p,p,p,p,p,p,p,m,p,p,B.d3,p,p,!0,p,4,p,p,p,p,p,p),p),B.RR,A.asf("@iamsumitmandloi",p,A.ho(p,p,B.E,p,p,p,p,p,p,p,p,r,p,p,p,p,p,!0,p,1.8,p,p,p,p,p,p),p)],q),B.aI,B.aj,B.bI),B.fB,B.G1),p)],q),B.aj,B.bI,0)
-r=A.a_I(A.asf("Hi, I'm Sumit. Flutter developer with nearly 5 years of shipping production apps, from the Tata Neu super app to healthcare, agritech and investing apps. I work with Flutter, Dart and Firebase, using Bloc, MobX and Provider for state management.",B.en,A.ho(p,p,B.k,p,p,p,p,p,p,p,p,r,p,p,B.A,p,p,!0,p,1.8,p,p,p,p,p,p),B.az),B.mW,B.mU)
+r=A.a_I(A.asf("Hi, I'm Sumit. Flutter developer with 6 years shipping production apps across fintech, retail, health and agritech.\nI\u2019ve shipped production apps including NSE India and Tata Neu, with experience in real-time market data and mobile security.",B.en,A.ho(p,p,B.k,p,p,p,p,p,p,p,p,r,p,p,B.A,p,p,!0,p,1.8,p,p,p,p,p,p),B.az),B.mW,B.mU)
 s=A.aGA(B.k,B.iK,B.yM,p)
 n=A.aI7(p,p,p,p,p,p,p,p,p,B.k,p,B.yM,p,p,p,B.B6,p,p,p,p)
 return A.jc(B.N,A.lQ(A.c([m,B.RP,B.G3,B.RQ,r,B.kL,A.asJ(B.c9,A.c([new A.Jf(!0,new A.a4G(),p,p,p,s,B.u,p,!1,p,!0,p,new A.R5(B.WP,B.HT,s,p,p),p),new A.L5(!0,new A.a4H(),p,p,p,n,p,p,!1,p,!0,p,new A.Sy(B.WO,B.HR,n,p,p),p)],q),12,12),B.kL,B.S4],q),B.aI,B.aj,B.bo),B.u,p,new A.ak(0,o,0,1/0),p,p,p,p,B.GZ,p,p,p)}}
