@@ -7,7 +7,7 @@
 # Override FLUTTER_VERSION or FLUTTER_HOME in the environment if needed.
 set -euo pipefail
 
-FLUTTER_VERSION="${FLUTTER_VERSION:-3.47.9}"
+FLUTTER_VERSION="${FLUTTER_VERSION:-3.44.0}"
 FLUTTER_HOME="${FLUTTER_HOME:-/opt/flutter}"
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 

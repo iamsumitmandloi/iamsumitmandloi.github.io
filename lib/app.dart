@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app/utilities/app_constants.dart';
-import 'package:app/landing/landing_screen.dart';
+import 'package:app/content/portfolio_screen.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 // Screen-width ranges. Ends sit just below the next start so every width,
@@ -29,7 +28,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: AppConstants.appTitle,
+      title: 'Portfolio',
 
       // Initializing responsive_framework here.
       builder: (context, child) {
@@ -38,7 +37,7 @@ class App extends StatelessWidget {
           child: Builder(
             builder: (context) {
               return ColoredBox(
-                color: primaryColor,
+                color: portfolioBackground,
                 child: ResponsiveScaledBox(
                   width: _layoutWidth(MediaQuery.sizeOf(context).width),
                   child: BouncingScrollWrapper.builder(context, child!),
@@ -48,8 +47,20 @@ class App extends StatelessWidget {
           ),
         );
       },
-      home: const LandingScreen(),
+      home: const PortfolioScreen(),
+      // Keep query-based article/contact links when Navigator reports its route.
+      onGenerateInitialRoutes: (_) => [
+        MaterialPageRoute<void>(
+          settings: RouteSettings(
+            name: Uri.base.path + (Uri.base.hasQuery ? '?${Uri.base.query}' : ''),
+          ),
+          builder: (_) => const PortfolioScreen(),
+        ),
+      ],
       theme: ThemeData(
+        brightness: Brightness.dark,
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color(0xFFD6C9FF), brightness: Brightness.dark),
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Ubuntu',
       ),

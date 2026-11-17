@@ -1,3 +1,9 @@
+## Editing the portfolio
+
+[Open the portfolio admin](https://sumit-portfolio-8egglvol.sanity.studio/). Sign in with GitHub, edit your content, then select **Publish**.
+
+The Flutter website on GitHub Pages reads published content from Sanity. Content changes do not require a rebuild. See [the admin guide](studio/README.md) for adding articles, reordering projects, and managing visibility.
+
 <h1 align="center">Hi 👋, I'm Sumit Mandloi (@iamsumitmandloi)</h1>
 <h3 align="center">Flutter developer</h3>
 <img align = "right" alt= "Coding " width="350px" border-radius="10px" src="https://i.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.webp">

@@ -1,0 +1,950 @@
+{
+  "settings": {
+    "_id": "siteSettings",
+    "_type": "siteSettings",
+    "name": "Sumit Mandloi",
+    "handle": "iamsumitmandloi",
+    "intro": "Hi, I'm Sumit. Flutter developer with 6 years shipping production apps across fintech, retail, health and agritech.\nI’ve shipped production apps including NSE India and Tata Neu, with experience in real-time market data and mobile security.",
+    "pageTitle": "Sumit Mandloi (@iamsumitmandloi) – Flutter Developer",
+    "description": "Sumit Mandloi, Flutter developer with 6 years shipping production apps including NSE India and Tata Neu. Experience in real-time market data and mobile security.",
+    "sections": [
+      "projects",
+      "articles"
+    ],
+    "projectsTitle": "Showcase",
+    "projectsDescription": "Apps I have built, solo or as a core member of the team.",
+    "projectsDisclaimer": "Some of these were built for companies I worked at or for clients, so the apps belong to their owners.",
+    "articlesTitle": "Selected articles",
+    "buttons": [
+      {
+        "_key": "resume",
+        "_type": "heroButton",
+        "label": "View résumé",
+        "action": "url",
+        "url": "https://drive.google.com/file/d/1_V77bKztu5MQh1xRd6SI6CHzsjTqtlhs/view?usp=sharing",
+        "visible": true
+      },
+      {
+        "_key": "contact",
+        "_type": "heroButton",
+        "label": "Contact me",
+        "action": "contact",
+        "visible": true
+      },
+      {
+        "_key": "articles",
+        "_type": "heroButton",
+        "label": "Articles",
+        "action": "articles",
+        "visible": true
+      }
+    ],
+    "socials": [
+      {
+        "_key": "github",
+        "_type": "portfolioLink",
+        "label": "GitHub",
+        "url": "https://github.com/iamsumitmandloi",
+        "icon": "github",
+        "visible": true
+      },
+      {
+        "_key": "email",
+        "_type": "portfolioLink",
+        "label": "Email",
+        "url": "mailto:sumitkumar77.sk@gmail.com",
+        "icon": "email",
+        "visible": true
+      },
+      {
+        "_key": "linkedin",
+        "_type": "portfolioLink",
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/iamsumitmandloi",
+        "icon": "linkedin",
+        "visible": true
+      },
+      {
+        "_key": "x",
+        "_type": "portfolioLink",
+        "label": "X",
+        "url": "https://x.com/iamsumitmandloi",
+        "icon": "x",
+        "visible": true
+      },
+      {
+        "_key": "instagram",
+        "_type": "portfolioLink",
+        "label": "Instagram",
+        "url": "https://instagram.com/iamsumitmandloi",
+        "icon": "instagram",
+        "visible": true
+      },
+      {
+        "_key": "medium",
+        "_type": "portfolioLink",
+        "label": "Medium",
+        "url": "https://medium.com/@iamsumitmandloi",
+        "icon": "medium",
+        "visible": true
+      },
+      {
+        "_key": "youtube",
+        "_type": "portfolioLink",
+        "label": "YouTube",
+        "url": "https://www.youtube.com/@iamsumitmandloi",
+        "icon": "youtube",
+        "visible": true
+      }
+    ],
+    "footerLink": {
+      "_type": "portfolioLink",
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/iamsumitmandloi",
+      "visible": true
+    },
+    "contactEnabled": true,
+    "contactTitle": "Contact me",
+    "contactDescription": "Have a mobile engineering role or project in mind? Send me a message.",
+    "email": "sumitkumar77.sk@gmail.com",
+    "formspreeEndpoint": "https://formspree.io/f/mrpqepop"
+  },
+  "projects": [
+    {
+      "_id": "project-nse-india",
+      "_type": "project",
+      "title": "NSE India",
+      "description": "Markets, stocks and indices from the National Stock Exchange",
+      "sourceImage": "assets/images/nse_india.webp",
+      "imageFit": "contain",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.nse.nseindia",
+          "icon": "playStore",
+          "visible": true
+        },
+        {
+          "_key": "appStoreURL",
+          "_type": "portfolioLink",
+          "label": "App Store",
+          "url": "https://apps.apple.com/in/app/nseindia/id6736678487",
+          "icon": "appStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 10
+    },
+    {
+      "_id": "project-nse-egr",
+      "_type": "project",
+      "title": "NSE EGR",
+      "description": "Create and track Electronic Gold Receipt requests",
+      "sourceImage": "assets/images/egr.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.nseindia.egr",
+          "icon": "playStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 20
+    },
+    {
+      "_id": "project-nse-mf-invest-biz",
+      "_type": "project",
+      "title": "NSE MF Invest Biz",
+      "description": "Mutual fund transactions for distributors",
+      "sourceImage": "assets/images/mf_invest_biz.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.nseindia.mf_invest",
+          "icon": "playStore",
+          "visible": true
+        },
+        {
+          "_key": "appStoreURL",
+          "_type": "portfolioLink",
+          "label": "App Store",
+          "url": "https://apps.apple.com/in/app/nse-mf-invest-biz/id6768894925",
+          "icon": "appStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 30
+    },
+    {
+      "_id": "project-neaps",
+      "_type": "project",
+      "title": "NEAPS",
+      "description": "Announcements, circulars and filings for listed companies",
+      "sourceImage": "assets/images/neaps.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.nseindia.corporate",
+          "icon": "playStore",
+          "visible": true
+        },
+        {
+          "_key": "appStoreURL",
+          "_type": "portfolioLink",
+          "label": "App Store",
+          "url": "https://apps.apple.com/in/app/neaps-app/id6752997651",
+          "icon": "appStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 40
+    },
+    {
+      "_id": "project-nse-gobid",
+      "_type": "project",
+      "title": "NSE GoBID",
+      "description": "IPO bidding app",
+      "sourceImage": "assets/images/gobid_logo.svg",
+      "imageFit": "cover",
+      "links": [],
+      "hidden": false,
+      "order": 50
+    },
+    {
+      "_id": "project-tata-neu",
+      "_type": "project",
+      "title": "Tata Neu",
+      "description": "Super App - Shop, Travel & Finance",
+      "sourceImage": "assets/images/tataneu.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.tatadigital.tcp",
+          "icon": "playStore",
+          "visible": true
+        },
+        {
+          "_key": "appStoreURL",
+          "_type": "portfolioLink",
+          "label": "App Store",
+          "url": "https://apps.apple.com/in/app/tata-neu-shop-travel-finance/id1584669293",
+          "icon": "appStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 60
+    },
+    {
+      "_id": "project-agbiz",
+      "_type": "project",
+      "title": "Agbiz",
+      "description": "Agriculture Business App for Farmers & FPOs",
+      "sourceImage": "assets/images/agbiz.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.censa.agbiz",
+          "icon": "playStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 70
+    },
+    {
+      "_id": "project-investmates",
+      "_type": "project",
+      "title": "Investmates",
+      "description": "Social Networking App for Investments",
+      "sourceImage": "assets/images/investmates.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.investmates.io",
+          "icon": "playStore",
+          "visible": true
+        },
+        {
+          "_key": "appStoreURL",
+          "_type": "portfolioLink",
+          "label": "App Store",
+          "url": "https://apps.apple.com/in/app/investmates/id1618762983",
+          "icon": "appStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 80
+    },
+    {
+      "_id": "project-ihl-care",
+      "_type": "project",
+      "title": "IHL Care",
+      "description": "Healthcare App",
+      "sourceImage": "assets/images/ihlc.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.indiahealthlink.ihlhealth",
+          "icon": "playStore",
+          "visible": true
+        },
+        {
+          "_key": "appStoreURL",
+          "_type": "portfolioLink",
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/ihl-care/id1531266761",
+          "icon": "appStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 90
+    },
+    {
+      "_id": "project-ihl-partner",
+      "_type": "project",
+      "title": "IHL Partner",
+      "description": "Healthcare Admin App",
+      "sourceImage": "assets/images/ihlp.webp",
+      "imageFit": "cover",
+      "links": [
+        {
+          "_key": "playStoreURL",
+          "_type": "portfolioLink",
+          "label": "Play Store",
+          "url": "https://play.google.com/store/apps/details?id=com.indiahealthlink.ihlpartner",
+          "icon": "playStore",
+          "visible": true
+        }
+      ],
+      "hidden": false,
+      "order": 100
+    }
+  ],
+  "articles": [
+    {
+      "_id": "article-dart-event-loop-and-isolates",
+      "_type": "article",
+      "title": "The Dart event loop and isolates in Flutter",
+      "slug": {
+        "_type": "slug",
+        "current": "dart-event-loop-and-isolates"
+      },
+      "summary": "Why a fast network request can still cause jank, and when to move work to an isolate.",
+      "body": [
+        {
+          "_key": "b0",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "A network request can finish quickly and still make a Flutter app stutter. The expensive part may be the JSON parsing that begins after the response arrives.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b1",
+          "_type": "block",
+          "style": "h2",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "What runs after the current code finishes?",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b2",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Each Dart isolate has its own event loop. Synchronous Dart code runs to completion. Once control returns to the loop, Dart drains pending microtasks before taking the next event. A timer adds an event, so even a zero-delay timer waits for the current code and pending microtasks.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b3",
+          "_type": "codeBlock",
+          "language": "dart",
+          "code": "import 'dart:async';\n\nvoid main() {\n  print('1. start');\n  Timer.run(() => print('4. timer event'));\n  scheduleMicrotask(() => print('3. microtask'));\n  print('2. end');\n}"
+        },
+        {
+          "_key": "b4",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "The numbers are the order you'll see. The timer is registered first, yet the microtask runs before it. A microtask that keeps scheduling more microtasks can delay timers and other events. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "Dart microtask API",
+              "marks": [
+                "link0"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "link0",
+              "_type": "link",
+              "href": "https://api.dart.dev/dart-async/scheduleMicrotask.html"
+            }
+          ]
+        },
+        {
+          "_key": "b5",
+          "_type": "block",
+          "style": "h2",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Why ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "await",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " doesn't fix slow parsing",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b6",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Suppose a screen loads a large watchlist. While it awaits the HTTP response, the main isolate can handle taps and build frames. After the response arrives, a call to ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "jsonDecode",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " runs synchronously wherever you call it. Wrapping the decode in a future on the same isolate can move it to a later turn, where it can still delay a frame.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b7",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "If a performance trace identifies parsing as the bottleneck, move that computation to a worker. On native Flutter, ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "compute",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " runs the callback in a separate isolate. The example assumes the API returns a JSON array of objects.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b8",
+          "_type": "codeBlock",
+          "language": "dart",
+          "code": "import 'dart:convert';\n\nimport 'package:flutter/foundation.dart';\n\nList<Map<String, Object?>> parseWatchlist(String body) {\n  final rows = jsonDecode(body) as List<dynamic>;\n  return rows.cast<Map<String, Object?>>().toList();\n}\n\nFuture<List<Map<String, Object?>>> decodeWatchlist(String body) {\n  return compute(parseWatchlist, body, debugLabel: 'parseWatchlist');\n}"
+        },
+        {
+          "_key": "b9",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Pass the response body as input and return the parsed values. An isolate has its own mutable state, so the screen still applies the result on the main isolate. On Flutter Web, ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "compute",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " runs on the same event loop. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s3",
+              "text": "Flutter's guide to isolates",
+              "marks": [
+                "link0"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "link0",
+              "_type": "link",
+              "href": "https://docs.flutter.dev/perf/isolates"
+            }
+          ]
+        },
+        {
+          "_key": "b10",
+          "_type": "block",
+          "style": "h2",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Measure before keeping the worker",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b11",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Run the screen in profile mode on a target device with a realistically large response. Compare frame timing before and after the change. Creating an isolate and passing data have a cost, so small payloads may be cheaper to parse directly. If the trace still points to frame delays after parsing moves off the main isolate, check what the screen does with the result. Building thousands of rows at once can still stall the UI.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b12",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Dart's concurrency guide",
+              "marks": [
+                "link0"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "link0",
+              "_type": "link",
+              "href": "https://dart.dev/language/concurrency"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "Dart",
+        "Flutter"
+      ],
+      "order": 10,
+      "hidden": false
+    },
+    {
+      "_id": "article-flutter-push-notifications",
+      "_type": "article",
+      "title": "Handling push notifications in Flutter",
+      "slug": {
+        "_type": "slug",
+        "current": "flutter-push-notifications"
+      },
+      "summary": "How to route an FCM notification tap after a cold start or app unlock.",
+      "body": [
+        {
+          "_key": "b0",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Someone taps an “Order updated” notification. The app opens, briefly shows the home screen, then leaves them there. The message arrived. The tap still needs to reach a screen once the app is ready.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b1",
+          "_type": "block",
+          "style": "h2",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Receiving a message and opening it",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b2",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "In an Android or iOS Flutter app using Firebase Cloud Messaging (FCM), ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "onMessage",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " handles messages received while your app is in the foreground. You can refresh visible data or choose how to show an alert. A visible system notification isn't shown by default for a foreground message.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b3",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "A tap on an FCM notification reaches ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "onMessageOpenedApp",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " if the app resumes from the background. If the tap launches the app from a terminated state, read it with ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s3",
+              "text": "getInitialMessage()",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s4",
+              "text": ". FCM consumes that initial message when it is read, so let one part of your app own the call. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s5",
+              "text": "Firebase's guide to receiving messages in Flutter",
+              "marks": [
+                "link0"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "link0",
+              "_type": "link",
+              "href": "https://firebase.google.com/docs/cloud-messaging/flutter/receive-messages"
+            }
+          ]
+        },
+        {
+          "_key": "b4",
+          "_type": "block",
+          "style": "h2",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Route both tap paths through one handler",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b5",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "In this example, the backend sends a message type and an opaque order ID. The app converts either tap into the same request to open an order. This excerpt assumes Firebase is initialized and that ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "queueOrder",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " can accept requests before navigation is ready.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b6",
+          "_type": "codeBlock",
+          "language": "dart",
+          "code": "import 'dart:async';\n\nimport 'package:firebase_messaging/firebase_messaging.dart';\n\nFuture<StreamSubscription<RemoteMessage>> listenForOrderTaps(\n  void Function(String orderId) queueOrder,\n) async {\n  void handleTap(RemoteMessage message) {\n    final orderId = message.data['orderId'];\n    if (message.data['type'] == 'order_updated' &&\n        orderId is String && orderId.trim().isNotEmpty) {\n      queueOrder(orderId);\n    }\n  }\n\n  final subscription =\n      FirebaseMessaging.onMessageOpenedApp.listen(handleTap);\n\n  try {\n    final launchMessage =\n        await FirebaseMessaging.instance.getInitialMessage();\n    if (launchMessage != null) handleTap(launchMessage);\n    return subscription;\n  } catch (_) {\n    await subscription.cancel();\n    rethrow;\n  }\n}"
+        },
+        {
+          "_key": "b7",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Keep the subscription in one app level owner and cancel it when that owner is disposed. Hold the target until the router and session are ready and any app lock has been cleared. Fetch the order using the current account and let the server check access. If the order has disappeared, show an appropriate message and take the user to a safe screen.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b8",
+          "_type": "block",
+          "style": "h2",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Keep background processing brief",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b9",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "FCM's ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "onBackgroundMessage",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s2",
+              "text": " callback handles eligible messages in the background. On Android it runs in a separate isolate. Apple platforms don't require that extra isolate. Use a top-level handler annotated with ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s3",
+              "text": "@pragma('vm:entry-point')",
+              "marks": [
+                "code"
+              ]
+            },
+            {
+              "_type": "span",
+              "_key": "s4",
+              "text": ". Keep UI navigation in the app's tap flow and use the background callback for brief work, such as marking cached data for a refresh. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s5",
+              "text": "Firebase's background handler requirements",
+              "marks": [
+                "link0"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "link0",
+              "_type": "link",
+              "href": "https://firebase.google.com/docs/cloud-messaging/flutter/receive-messages"
+            }
+          ]
+        },
+        {
+          "_key": "b10",
+          "_type": "block",
+          "style": "h2",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Test the path with the app closed",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b11",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "On Android and iOS devices, try a delivery while the app is visible, a tap while it is in the background, and a tap that launches it from a terminated state. Repeat the launch test with the user signed out or the app locked. Check where the tap lands after sign-in or unlock and what happens if the order is no longer accessible.",
+              "marks": []
+            }
+          ],
+          "markDefs": []
+        },
+        {
+          "_key": "b12",
+          "_type": "block",
+          "style": "normal",
+          "children": [
+            {
+              "_type": "span",
+              "_key": "s0",
+              "text": "Use generic lock screen text and fetch the current order after the app opens. Push delivery can be delayed, and the order may have changed again by the time someone taps. ",
+              "marks": []
+            },
+            {
+              "_type": "span",
+              "_key": "s1",
+              "text": "FCM message types",
+              "marks": [
+                "link0"
+              ]
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "link0",
+              "_type": "link",
+              "href": "https://firebase.google.com/docs/cloud-messaging/customize-messages/set-message-type"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "Flutter",
+        "Firebase"
+      ],
+      "order": 20,
+      "hidden": false
+    }
+  ]
+}
